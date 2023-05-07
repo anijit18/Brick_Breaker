@@ -38,9 +38,9 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
 
         //borders
         g.setColor(Color.yellow);
-        g.fillRect(0,0,3,592);
-        g.fillRect(0,0,692,3);
-        g.fillRect(691,0,3,592);
+        g.fillRect(0,0,3,592);//left border
+        g.fillRect(0,0,692,4);//top border
+        g.fillRect(684,0,3,592);//right border
         //no border for down-side because want to end the game when ball moves down
 
         //the paddle
