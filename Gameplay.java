@@ -25,8 +25,8 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         addKeyListener (this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
-        //timer = new Timer (delay, this);
-        //timer.start();
+        timer = new Timer (delay, this);
+        timer.start();
 
     }
 
